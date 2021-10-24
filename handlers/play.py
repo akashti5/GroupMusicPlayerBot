@@ -143,7 +143,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/93a2c92bc931e4bd07c75.jpg"
+        thumb_name = "https://telegra.ph/file/a8980ac90e78da7cf8c47.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -152,8 +152,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Channel 🔊",
-                        url="https://t.me/Infinity_BOTs")
+                        text="Support 🔊",
+                        url="https://t.me/PikachuHelpSupport")
                    
                 ]
             ]
@@ -201,7 +201,7 @@ async def play(_, message: Message):
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/638c20c44ca418c8b2178.jpg"
+            thumb_name = "https://telegra.ph/file/a8980ac90e78da7cf8c47.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
